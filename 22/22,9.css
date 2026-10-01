@@ -1,0 +1,258 @@
+body{
+  background-color: rgb(17, 21, 233);
+  align-items: center;
+  text-align: center;
+  padding: 0px;
+}
+h1{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h2{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h3{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    color: rgb(0, 255, 242);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}   /*caixa d pergunta*/
+#estado{
+    text-align: center;
+    width: 120px;
+    height:30px;
+    background-color:rgba(245, 245, 245, 0.24);
+    color: white;
+    border-radius:30px ;
+    padding: 2px;
+    margin: 10px;
+
+}  /*botao*/
+#converter{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(0, 0, 0) ;
+    color: white;
+    border-radius: 15px ;
+    padding:2px ;
+    margin:10px ;
+    border: 0cap;
+}  /*resposta div*/
+#mostrar{
+    align-items: center;
+    text-align: center;
+    background-color: aliceblue;
+    width: 150px ;
+    height: 30px;
+    font-size:large;
+    color: black;
+    border-radius:20px ;
+    padding: 5px;
+    margin:auto;
+}
+#valor{
+    text-align: center;
+    width: 120px;
+    height:30px;
+    background-color:rgba(245, 245, 245, 0.24);
+    color: white;
+    border-radius:30px ;
+    padding: 2px;
+    margin: 10px;} 
+ /*resposta div*/
+#real {
+    align-items: center;
+    text-align: center;
+    background-color: aliceblue;
+    width: 150px ;
+    height: 30px;
+    font-size:large;
+    color: black;
+    border-radius:20px ;
+    padding: 5px;
+    margin:auto;}
+    #moeda{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(0, 0, 0) ;
+    color: white;
+    border-radius: 15px ;
+    padding:2px ;
+    margin:10px ;
+    border: 0cap;}
+ /*parte das caixas das calculadoras*/
+#a1{
+    text-align: center;
+    width: 80px;
+    height:30px;
+    background-color:rgba(245, 245, 245, 0.24);
+    color: white;
+    border-radius:30px ;
+    padding: 2px;
+    margin: 10px;
+    margin-left: 5px;}
+#a2{
+    text-align: center;
+    width: 80px;
+    height:30px;
+    background-color:rgba(245, 245, 245, 0.24);
+    color: white;
+    border-radius:30px ;
+    padding: 2px;
+    margin: auto;}
+#s1{
+    text-align: center;
+    width: 80px;
+    height:30px;
+    background-color:rgba(245, 245, 245, 0.24);
+    color: white;
+    border-radius:30px ;
+    padding: 2px;
+    margin: auto;
+    margin-left: 20px;}
+#s2{
+    text-align: center;
+    width: 80px;
+    height:30px;
+    background-color:rgba(245, 245, 245, 0.24);
+    color: white;
+    border-radius:30px ;
+    padding: 2px;
+    margin: auto;}
+#cx1{
+    text-align: center;
+    width: 80px;
+    height:30px;
+    background-color:rgba(245, 245, 245, 0.24);
+    color: white;
+    border-radius:30px ;
+    padding: 2px;
+    margin: 10px;
+    margin-left: 15px;}
+#cx2{
+    text-align: center;
+    width: 80px;
+    height:30px;
+    background-color:rgba(245, 245, 245, 0.24);
+    color: white;
+    border-radius:30px ;
+    padding: 2px;
+    margin: auto;}
+#c1{
+    text-align: center;
+    width: 80px;
+    height:30px;
+    background-color:rgba(245, 245, 245, 0.24);
+    color: white;
+    border-radius:30px ;
+    padding: 2px;
+    margin: 15px;}
+#c2{
+    text-align: center;
+    width: 80px;
+    height:30px;
+    background-color:rgba(245, 245, 245, 0.24);
+    color: white;
+    border-radius:30px ;
+    padding: 2px;
+    margin: auto;}
+    /*parte dos botoes da calculadora*/
+#sm{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(0, 0, 0) ;
+    color: white;
+    border-radius: 15px ;
+    padding:2px ;
+    margin:10px ;
+    border: 0;}
+#sb{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(0, 0, 0) ;
+    color: white;
+    border-radius: 15px ;
+    padding:2px ;
+    margin:10px ;
+    border: 0cap;}
+#dividir{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(0, 0, 0) ;
+    color: white;
+    border-radius: 15px ;
+    padding:2px ;
+    margin:10px ;
+    border: 0cap;}
+#multiplicar{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(0, 0, 0) ;
+    color: white;
+    border-radius: 15px ;
+    padding:2px ;
+    margin:auto ;
+    border: 0cap;}
+    /*parte das respostas da calculadora*/
+#cx {
+    align-items: center;
+    text-align: center;
+    background-color: aliceblue;
+    width: 250px ;
+    height: 30px;
+    font-size:large;
+    color: black;
+    border-radius:20px ;
+    padding: 5px;
+    margin:10px ;
+    margin: auto;}
+#CX{
+    align-items: center;
+    text-align: center;
+    background-color: aliceblue;
+    width: 250px ;
+    height: 30px;
+    font-size:large;
+    color: black;
+    border-radius:20px ;
+    padding: 5px;
+    margin:auto ;}
+#divisao{
+    align-items: center;
+    text-align: center;
+    background-color: aliceblue;
+    width: 300px ;
+    height: 30px;
+    font-size:large;
+    color: black;
+    border-radius:20px ;
+    padding: 8px;
+    margin:auto ;
+    margin-left: center;}
+#multiplicacao{
+    align-items: center;
+    text-align: center;
+    background-color: aliceblue;
+    width: 300px ;
+    height: 30px;
+    font-size:large;
+    color: black;
+    border-radius:20px ;
+    padding: 8px;
+    margin: auto;}
+
+
+    
+
+
+
+
